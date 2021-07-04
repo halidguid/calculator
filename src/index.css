@@ -1,0 +1,22 @@
+@media only screen and (min-width : 480px)  { 
+.body{
+  background-color: aliceblue !important;
+}
+.container{
+  display:flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+min-height: 60px;
+  background: #fffdfd;
+position: absolute;
+left: 30%;
+margin-left: -185px;
+top: 50%;
+margin-top: -255px;
+  font-size: 1.5em;
+}
+.line{
+  margin-left: 12px;
+  
+}
+}
