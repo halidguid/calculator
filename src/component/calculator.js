@@ -101,19 +101,19 @@ function Calculator() {
 
   return (
     <div className="container">
-      <Card style={{ width: "52rem" }}>
+      <Card style={{ width: "50rem" }}>
         <Row className="align-items-center">
           <h2>Reverse Polish Notation Calculator</h2>
-          <hr className="line" style={{ width: "52rem" }}/>
+          <hr className="line" style={{ width: "50rem" }}/>
           <form onSubmit={insertNum} onReset={clearHandler}>
             <Form.Label>
               <Form.Control
-                placeholder="Enter the operand and operator: 1,2,3,4,+,*,-"
+                placeholder="Enter the operand and operator: 1,2,3,4,+,*,-,/,"
                 type="text"
                 onChange={changeHandler}
                 value={input}
                 disabled={disabled}
-                style={{ width: "30rem" }}
+                style={{ width: "32rem" }}
               />
             </Form.Label>{" "}
             <Button variant="primary" type="reset">
